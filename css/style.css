@@ -3,7 +3,7 @@ body {
     font: 400 14px 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
     line-height: 30px;
-    color: #727272;
+    color: #727672;
     font-size: 16px;
     font-weight: 300;
     line-height: 2.2;
@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 
 a:hover,
@@ -28,7 +28,7 @@ a[href^="tel:"] {
 img {
     max-width: 100%;
     height: auto;
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 
 
@@ -128,7 +128,7 @@ a:not([href]):not([tabindex]) {
 }
 
 .btn:hover {
-    color: #666;
+    color: #665;
     background-color: #FFF;
     border: 2px solid #666;
     letter-spacing: 3px;
@@ -188,7 +188,7 @@ a:not([href]):not([tabindex]) {
 }
 
 .btn-download:hover:after {
-    width: 50px;
+    width: 45px;
     height: 70px;
     right: -5px;
     top: -5px;
