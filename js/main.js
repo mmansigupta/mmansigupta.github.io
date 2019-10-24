@@ -38,7 +38,7 @@
 	            '<i class="ion-ios-arrow-thin-right"></i>'
 	        ],
 	        items: 1,
-	        navSpeed: 400,
+	        navSpeed: 600,
 	        loop: true,
 	        autoplay: true,
 	        autoplayTimeout: 4000,
@@ -76,13 +76,14 @@
 	});
 
 	//Video background
-	// $(".player").mb_YTPlayer({
-	//     containment: '#video-wrapper',
-	//     mute: true,
-	//     showControls: false,
-	//     quality: 'default',
-	//     startAt: 5
-	// });
+	$(".player").mb_YTPlayer({
+	    containment: '#video-wrapper',
+	    mute: true,
+	    showControls: true,
+	    quality: 'default',
+	    defaultSys: 'code43',
+	    startAt: 7
+	});
 
 	//Portfolio Modal
 	// $('.open-project').on('click', function() {
